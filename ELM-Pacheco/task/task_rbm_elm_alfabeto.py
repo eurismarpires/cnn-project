@@ -24,7 +24,7 @@ import tensorflow as tf
 
 it = 10
 hidNeurons = 1000
-maxIterRbm = 50
+maxIterRbm = 100
 
 # loading the data set
 print 'Loading the dataset...'
