@@ -10,7 +10,7 @@ import numpy as np
 
 
 def Vec2Mat(vet, numLins, numCols):
-    #Transform output vector of class id's in a binary matrix
+    # Transform output vector of class id's in a binary matrix
     mat = np.zeros((numLins, numCols))
 
     for i in range(numLins):

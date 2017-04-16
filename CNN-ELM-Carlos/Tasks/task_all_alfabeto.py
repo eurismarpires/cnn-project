@@ -28,7 +28,7 @@ if __name__ == '__main__':
         Base = np.hstack((Base[:, -1] - 1, Base[:, :-1]/255))
     
         # Standardization
-        #BaseAlfabeto[:, 1:] = (BaseAlfabeto[:, 1:] - numpy.mean(BaseAlfabeto[:, 1:])) / numpy.std(BaseAlfabeto[:, 1:])
+        #Base[:, 1:] = (Base[:, 1:] - numpy.mean(Base[:, 1:])) / numpy.std(Base[:, 1:])
     
         size_imgH = 30
         size_imgW = 30
